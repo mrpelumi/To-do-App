@@ -1,0 +1,10 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 70vh;
+  border: 1px solid black;
+  margin: auto auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
