@@ -1,0 +1,58 @@
+@import '../../routes/home/home.styles.scss';
+
+.task-container {
+  display: flex;
+  flex-direction: row;
+  width: 26rem;
+}
+.task-checkbox-container{
+  width: 150rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.task-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  height: 25px;
+  width: 25px;
+  border: 3px solid gray;
+  border-radius: 13px;
+  outline: none;
+  transition-duration: 0.3s;
+  cursor: pointer;
+
+  &:checked{
+    border: 3px solid $text-color;
+    background-color: $text-color;
+  }
+  &:active {
+    border: 3px solid $text-color;
+  }
+}
+
+.task-name {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-icon-container{
+  text-align: center;
+  padding:0.5rem;
+  cursor: pointer;
+  width: fit-content;
+  
+}
+
+hr {
+  border-top: 0.1px solid rgb(212, 209, 209);
+
+}

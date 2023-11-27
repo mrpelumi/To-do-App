@@ -6,7 +6,7 @@ const TaskItems = () => {
   const {taskItems} = useContext(TasksContext);
   
   return (
-    <div>
+    <div className="">
       {
         taskItems.map(task => {
           return (

@@ -1,0 +1,29 @@
+@import '../../routes/home/home.styles.scss';
+
+.form-input {
+  width: 24rem;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  border: 0px;
+  border-radius: 15px 0 0 15px;
+  background-color: $input-color;
+  
+  &:focus{
+    outline: none;
+    
+  }
+}
+.add-button{
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  border: 0px;
+  border-radius: 0 15px 15px 0;
+  background-color: $button-color;
+  color: white;
+  font-weight: 600;
+
+  &:hover {
+    color: white;
+    background-color: #3dbbe5;
+  }
+}
